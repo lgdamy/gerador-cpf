@@ -11,4 +11,4 @@ Soma dos 9 primeiros digitos com peso proporcional a posição, e mod11 para o p
   * Relacionar o nono dígito a uma UF emissora
   * Consulta do cpf na Receita Federal para validar a existência mesmo
 
-Sinta-se livre para modificar, a casa é sua :D
+Sinta-se livre para modificar, a casa é sua :wink:
