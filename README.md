@@ -1,4 +1,14 @@
 # Gerador de CPF
-Projeto simples que gera o dígito verificador de um cpf digitado, ele está em swing
+### Projeto simples que gera o dígito verificador de um cpf digitado, ele está em swing
 
-O pacote compilado e executável se encontra em [Gerador de CPF.jar](https://github.com/lgdamy/gerador-cpf/raw/master/Gerador%20de%20CPF.jar) (Necessario no minimo uma jre8)
+A lógica é bastante simples:
+Soma dos 9 primeiros digitos com peso proporcional a posição, e mod11 para o primeiro dígito, e o mesmo cálculo é feito depois que o primeiro dígito foi calculado.
+
+* Releases
+  * v1.0.0: [Gerador_de_CPF.jar](https://github.com/lgdamy/gerador-cpf/releases/download/v1.0.0/Gerador_de_CPF.jar) (Necessario no minimo uma jre8)
+
+* Possíveis melhorias:
+  * Relacionar o nono dígito a uma UF emissora
+  * Consulta do cpf na Receita Federal para validar a existência mesmo
+
+Sinta-se livre para modificar, a casa é sua :D
