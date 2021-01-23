@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.damytec.view.MainWindow">
+  <grid id="27dc6" binding="basePanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="577" height="181"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3a78b" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-4276546"/>
+        </properties>
+        <border type="none" title-justification="2"/>
+        <children>
+          <component id="66e2b" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="images/logomini.png"/>
+            </properties>
+          </component>
+          <component id="71c17" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font size="20" style="1"/>
+              <horizontalAlignment value="0"/>
+              <text value="GERADOR DE CPF"/>
+            </properties>
+          </component>
+          <component id="4c87f" class="javax.swing.JSeparator">
+            <constraints border-constraint="South"/>
+            <properties>
+              <orientation value="0"/>
+            </properties>
+          </component>
+          <component id="f4321" class="javax.swing.JLabel" binding="closeButton">
+            <constraints border-constraint="East"/>
+            <properties>
+              <icon value="images/close.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="77f44" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="empty"/>
+        <children>
+          <component id="9bb7d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="CPF"/>
+            </properties>
+          </component>
+          <component id="dcb1" class="javax.swing.JTextField" binding="inputCpf">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <columns value="9"/>
+              <toolTipText value="Digite um cpf sem os digitos"/>
+            </properties>
+          </component>
+          <component id="ff7b8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="DV"/>
+            </properties>
+          </component>
+          <component id="6111c" class="javax.swing.JTextField" binding="dvField">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <columns value="2"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="65b03" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Formatado"/>
+            </properties>
+          </component>
+          <component id="6765d" class="javax.swing.JTextField" binding="formattedField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <columns value="14"/>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="f540f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Cru"/>
+            </properties>
+          </component>
+          <component id="3a14d" class="javax.swing.JTextField" binding="rawField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <component id="ae946" class="javax.swing.JLabel" binding="validImage">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cc068" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-16187308"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f8e13" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-859392"/>
+              <font size="10"/>
+              <foreground color="-859392"/>
+              <text value="Damy Tecnologia da Informação LTDA"/>
+            </properties>
+          </component>
+          <component id="816d5" class="javax.swing.JLabel">
+            <constraints border-constraint="East"/>
+            <properties>
+              <font size="10"/>
+              <foreground color="-859392"/>
+              <text value="30.281.367/0001-91"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
