@@ -14,7 +14,7 @@
         </properties>
         <border type="none" title-justification="2"/>
         <children>
-          <component id="66e2b" class="javax.swing.JLabel">
+          <component id="66e2b" class="javax.swing.JLabel" binding="logoButton" custom-create="true">
             <constraints border-constraint="West"/>
             <properties>
               <icon value="images/logomini.png"/>
@@ -34,11 +34,10 @@
               <orientation value="0"/>
             </properties>
           </component>
-          <component id="f4321" class="javax.swing.JLabel" binding="closeButton">
+          <component id="f4321" class="javax.swing.JLabel" binding="closeButton" custom-create="true">
             <constraints border-constraint="East"/>
             <properties>
               <icon value="images/close.png"/>
-              <text value=""/>
             </properties>
           </component>
         </children>

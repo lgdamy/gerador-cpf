@@ -1,4 +1,4 @@
-package com.damytec.util;
+package com.damytec.ui;
 
 import javax.swing.*;
 import java.awt.*;
